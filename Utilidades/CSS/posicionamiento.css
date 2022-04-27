@@ -1,0 +1,14 @@
+.contenedor {
+    width: 400px;
+    height: 400px;
+}
+
+.caja {
+    width: 120px;
+    height: 120px;
+}
+
+.posicion {
+    top: 40px;
+    /* bottom: 40px; */
+}

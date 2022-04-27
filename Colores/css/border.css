@@ -1,0 +1,20 @@
+ .body {
+     background-color: #2f2f2f;
+ }
+ 
+ .caja1 {
+     --tamano: 180px;
+     height: var(--tamano);
+     width: var(--tamano);
+     margin: 10px;
+     background-color: #212529;
+     color: #fff;
+     text-align: center;
+     padding: 1rem;
+ }
+ 
+ .caja1-rectangular {
+     width: 70%;
+     height: 100px;
+     background-color: #212529;
+ }

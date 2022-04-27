@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>AngularPracticas</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./CSS/grid.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+</head>
+
+<body class="body">
+    <div class="container">
+
+        <div class="row">
+            <div class="col">Col 1</div>
+            <div class="col">Col 2 </div>
+            <!-- Se puede distribuir en 12 columnas segun
+            los elementos que tengamos  -->
+        </div><br>
+
+
+        <div class="row">
+            <div class="col">Col 1</div>
+            <div class="col-auto">Col-auto 2 </div>
+            <div class="col">Col 3 </div>
+            <!-- Col auto toma el tamño segun el contenido   -->
+        </div><br>
+
+
+
+        <div class="row">
+            <div class="col-4">Col-4</div>
+            <div class="col-8">Col-8</div>
+            <!-- Col Numero sera el ancho de columna es igual 
+                al numero que le pases  -->
+        </div><br>
+
+
+
+        <div class="row">
+            <div class="col-4">Col-4</div>
+            <div class="col-8">Col-8</div>
+            <!-- Col-tamaño funciona igual que la primera pero
+            la primera diferencia es que le indicamos el tamaño
+        de pantalla xs,sm,md,lg,xl,xxl
+        casi no se usa
+      -->
+        </div><br>
+
+
+        <div class="row">
+            <div class="col-4">Col-4</div>
+            <div class="col-8">Col-8</div>
+            <!-- Col-tamaño-auto funciona igual que auto pero
+             diferencia es que le indicamos el tamaño
+        de pantalla sm,md,lg,xl casi no se usa
+      -->
+        </div><br>
+
+        <div class="row">
+            <div class="col-12 col-md-6 col-lg-9"> col-12 col-md-6 col-lg-9 </div>
+            <div class="col-12 col-md-6 col-lg-3">col-12 col-md-6 col-lg-3</div>
+            <!-- Col-tamaño-numero 
+      -->
+        </div><br>
+
+        <div class="row">
+            <div class="col-xs-12 col-sm-8 col-md-6 col-lg-4 col-xl-2 col-xxl-6"> col-xs-12 col-sm-8 col-md-6 col-lg-4 col-xl-2 col-xxl-6 </div>
+            <div class="col-xs-12 col-sm-4 col-md-6 col-lg-8 col-xl-2 col-xxl-6">col-xs-12 col-sm-4 col-md-6 col-lg-8 col-xl-2 col-xxl-6</div>
+            <!-- Col-tamaño-numero 
+      -->
+        </div><br>
+        <div class="row">
+            <div class="col-4"> Columna 1</div>
+            <div class="col-4">Columna 2</div>
+            <div class="w-100"></div>
+            <div class="col-4">Columna 3</div>
+            <div class="col-4">Columna 4</div>
+
+            <!-- w-100 saltos entre columnas -->
+
+        </div><br>
+
+        <div class="row row-cols-3">
+            <div class="col">Columna</div>
+            <div class="col">Columna</div>
+            <div class="col">Columna</div>
+            <div class="col">Columna</div>
+
+            <!--  row-cols-3 indica cuntos elementos
+            tendremos dentro de la clase row -->
+        </div><br>
+
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4">
+            <div class="col">Columna</div>
+            <div class="col">Columna</div>
+            <div class="col">Columna</div>
+            <div class="col">Columna</div>
+
+            <!--  row-cols-tamaño-numero  indica cuntos elementos
+            tendremos dentro de la clase row 
+        xs,sm,md,lg,xl,xxl
+    -->
+        </div><br>
+        <div class="row row-cols-xs-1  row-cols-sm-2  row-cols-md-4 row-cols-xxl-1">
+            <div class="">Columna</div>
+            <div class="">Columna</div>
+            <div class="">Columna</div>
+            <div class="">Columna</div>
+
+            <!-- En la nueva version 5 ya no es tan obligatorio la clase col  
+                row-cols-tamaño-numero  indica cuntos elementos
+            tendremos dentro de la clase row 
+        xs,sm,md,lg,xl,xxl
+    -->
+        </div><br>
+
+
+
+        <div class="row row-cols-auto">
+            <div class="" style="background-color: brown;">Lorem ipsum dolor sit amet.</div>
+            <div class="" style="background-color: blue;">Lorem, ipsum dolor.</div>
+            <div class="" style="background-color: wheat;">Lorem</div>
+            <div class="" style="background-color: palegreen;">Lorem ipsum dolor sit amet consectetur adipisicing.</div>
+
+            <!-- Nueva clase row-cols-auto 
+                Lo que hace es que el ancho de las columnas qu eestan dentro de la row
+                va hacer igual al contendio que guardan 
+        
+        -->
+        </div><br>
+</body>
+
+</html>
